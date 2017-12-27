@@ -7,11 +7,12 @@ body {
   background-image: url(jean-ralphio.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left -200px bottom 0px;
+  background-position: left -200px;
+  background-position: bottom;
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: green;
 }
 
 .container {
