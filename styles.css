@@ -17,12 +17,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;
-  -webkit-transform: translateZ(0);
-  -webkit-transform: translate3d(0px, 0px, 0px);
+  -webkit-backface-visibility: hidden;
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: yellow;
+  background-color: orange;
 }
 
 /*body:before {
