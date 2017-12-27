@@ -7,11 +7,11 @@ body {
   background-image: url(jean-ralphio.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: -200px 350px;
+  background-position: -200px 100%;
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: cyan;
 }
 
 .container {
@@ -152,9 +152,9 @@ q:after {
   }
 }
 
-@media only screen and (max-height: 600px) {
+/*@media only screen and (max-height: 600px) {
   body {
     background-size: 100%;
     background-position: -170px 200px;
   }
-}
+}*/
