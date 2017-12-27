@@ -21,10 +21,10 @@ body {
   font-size: 20px;
   box-sizing: border-box;
   width: 100vw;
-  height: 100vh;   /*LOCKING THE VIEWPORT HEIGHT MEANS YOU CAN'T SCROLL*/
+  height: 100vh;   /*LOCKING THE VIEWPORT HEIGHT MEANS YOU CAN'T SCROLL, WHICH MEANS THAT LONGER QUOTES ARE CUT OFF*/
+  /*THIS HEIGHT AND WIDTH SOLUTION ALSO MAKES ZOOMING ON FIREFOX MOBILE LOOK WEIRD*/
   overflow-x: hidden;
-  overflow-y: scroll;
-  background-color: red;
+  overflow-y: scroll;  /*PUTTING SCROLL FOR THIS PROPERTY ALLOWS ALL QUOTES TO BE READABLE, EVEN THOSE BELOW 100VH */
 }
 
 /*body:before {
