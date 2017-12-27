@@ -13,15 +13,16 @@
 }*/
 
 body {
-  width: 100%;
   background-image: url(jean-ralphio2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;
+  -webkit-transform: translateZ(0);
+  -webkit-transform: translate3d(0px, 0px, 0px);
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: yellow;
 }
 
 /*body:before {
