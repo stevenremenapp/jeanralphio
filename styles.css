@@ -11,11 +11,11 @@ body {
   background-image: url(jean-ralphio.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: -200px 340px;
+  background-position: -170px 340px;
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: yellow;
+  background-color: purple;
 }
 
 /*body:before {
@@ -171,8 +171,9 @@ q:after {
   }
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 650px) {
   body {
-    background-position: -170px 240px;
+    background-size: 150%;
+    background-position: -150px 325px;
   }
 }
