@@ -3,6 +3,10 @@
   src: url("interstateCondensedBold/interstateCondensedBold.otf");
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-image: url(jean-ralphio.png);
   background-repeat: no-repeat;
@@ -11,8 +15,23 @@ body {
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: cyan;
+  background-color: orange;
 }
+
+/*body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: -200px;
+  bottom: 0;
+  width: 50%;
+  height: 60%;
+  background: url(jean-ralphio.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
 
 .container {
   margin: 0 20%;
@@ -152,9 +171,9 @@ q:after {
   }
 }
 
-/*@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 600px) {
   body {
     background-size: 100%;
-    background-position: -170px 200px;
+    background-position: -170px 100%;
   }
-}*/
+}
