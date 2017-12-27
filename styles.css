@@ -7,15 +7,20 @@
   height: 100%;
 }*/
 
+/*html {
+  position: relative;
+  height: 100%;
+}*/
+
 body {
-  background-image: url(jean-ralphio.png);
+  background-image: url(jean-ralphio2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: -170px 340px;
+  background-position: bottom left;
   font-family: "Interstate Condensed Bold";
   font-size: 20px;
   box-sizing: border-box;
-  background-color: purple;
+  background-color: gray;
 }
 
 /*body:before {
@@ -111,6 +116,19 @@ q:after {
   content: no-close-quote;
 }
 
+/*.test {
+  background-image: url(jean-ralphio.png);
+  background-repeat: no-repeat;
+  background-position: -170px 100%;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  height: 55%;
+  border: 2px solid black;
+}*/
+
 /**************MEDIA QUERIES********************/
 
 @media only screen and (max-width: 1400px){
@@ -134,7 +152,7 @@ q:after {
   }
   body {
     /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url(jean-ralphio.png);*/
-    background-image: url(jean-ralphio50percentOpacity.png);
+    background-image: url(jean-ralphio50percentOpacity2.png);
   }
 }
 
@@ -145,7 +163,7 @@ q:after {
   }
   body {
     /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url(jean-ralphio.png);*/
-    background-image: url(jean-ralphio50percentOpacity.png);
+    background-image: url(jean-ralphio50percentOpacity2.png);
   }
 }
 
@@ -171,9 +189,9 @@ q:after {
   }
 }
 
-@media only screen and (max-height: 650px) {
+/*@media only screen and (max-height: 650px) {
   body {
     background-size: 150%;
     background-position: -150px 325px;
   }
-}
+}*/
