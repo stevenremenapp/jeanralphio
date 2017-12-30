@@ -84,7 +84,7 @@ h6 {
   margin-bottom: 3rem;
 }
 
-#upsideDizzity {
+.btn {
   height: 2rem;
   cursor: pointer;
   border: 2px solid #000;
@@ -93,12 +93,12 @@ h6 {
   transition: background-color 0.3s, border 0.3s;
 }
 
-#upsideDizzity:hover {
+.btn:hover {
   background-color: #dc9fea;
   border: 2px solid #444;
 }
 
-#jean-ralphio-btn {
+.btnImg {
   height: 2rem;
   width: auto;
   vertical-align: middle;
@@ -177,20 +177,20 @@ q:after {
     font-size: 17px;
     background-size: 100%; /*MADE IT RESPONSIVE!!*/
   }
-  #upsideDizzity {
+  .btn {
     font-size: 15px;
   }
-  #jean-ralphio-btn {
+  .btnImg {
     height: 1.5rem;
     width: auto;
   }
 }
 
-@media only screen and (max-width: 319px) {
+@media only screen and (max-width: 355px) {
   body {
     font-size: 15px;
   }
-  #upsideDizzity {
+  .btn {
     font-size: 13px;
   }
 }

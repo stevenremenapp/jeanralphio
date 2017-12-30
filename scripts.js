@@ -33,4 +33,5 @@ var quotes = [
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById("randomQuote").innerHTML = quotes[randomNumber];
+  // document.getElementById("tweetBtn").href = "https://twitter.com/intent/tweet/?text=" + quotes[randomNumber];
 }
