@@ -30,8 +30,16 @@ var quotes = [
   "<q>Jean-Ralphio: Okay, okay, they bought it. Do you have the insurance money?<br>Mona-Lisa: No doubt, no doubt, let's hit it bro.<br>Jean-Ralphio: Time to start a casino in &#9834;&nbsp;Taaajiiikistaaaaannn,&nbsp;&#9834; talkin' about TajikiSTAN!</q><br><br><cite>-&nbsp;Jean-Ralphio Saperstein</cite>"
 ]
 
+// Retrieved from: https://stackoverflow.com/questions/822452/strip-html-from-text-javascript
+function strip(html) {
+   var tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
+
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById("randomQuote").innerHTML = quotes[randomNumber];
-  // document.getElementById("tweetBtn").href = "https://twitter.com/intent/tweet/?text=" + quotes[randomNumber];
+  var thetext = strip(quotes[randomNumber]);
+  document.getElementById("tweetBtn").href = "https://twitter.com/intent/tweet/?text=" + thetext;
 }

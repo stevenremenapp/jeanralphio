@@ -1,0 +1,13 @@
+unexpected string because commas were missing at end of array items
+blockquote versus q // q before and after
+cite
+styling innerhtml elements (those elements coded into javascript array) with css
+quotes.length instead of hard coding the math.random amount
+array or api?
+a element unreliable inside the javascript array
+make a background-image opaque!
+change the size of a background image
+fucking background-position on the background image not working only in chrome mobile (see this: https://issuetracker.google.com/issues/36908439)
+didn't include tweet button, although i got one functioning, because i preferred to have the html tags in the javascript, didn't want to spend the time to strip them, and many quotes were too long for twitter anyway. i learned how to get it working and opted not to do it.
+strip html function!
+Doesn't work in IE, works in Chrome, Mozilla, and Edge
